@@ -4,10 +4,10 @@ import "./AboutMe.css"
 export default function AboutMe() {
     return (
         <>
-            <div>
+            <div >
                 <h1>About Me</h1>
                 <p>My name is Nedyalka Ivancheva, but you can call me Neli. 
-                    I would like to tell a little more about myself.
+                    I would like to tell a litlle more about myself.
                     I used to work as un insuranse expert for 2 years
                     but after realization that there is no oportunity for
                     career growth, I've decided to change my career
