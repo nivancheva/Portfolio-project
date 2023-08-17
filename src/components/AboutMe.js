@@ -1,4 +1,5 @@
 import React from "react";
+import "./AboutMe.css"
 
 export default function AboutMe() {
     return (
@@ -21,7 +22,7 @@ export default function AboutMe() {
                     mentain these systems is growing.
                 </p>
             </div>
-            <img />
+            <img src='IMG_8431.jpg' alt="myprofile picture" className="profile-img"/>
         </>
     )
 }
