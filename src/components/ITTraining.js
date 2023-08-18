@@ -11,9 +11,14 @@ export default function ITTraning() {
                 started doing chalanges from Frontend Mentor.
                 When i started learning Javascript I enrolled in
                 codecademy courses. You will be able to see more about
-                the projects and certificates acquired during my Traningin 
+                the projects and certificates acquired during my traning in 
                 in my github page.
             </p>
+            <ul>
+                <li>One Results summary component</li>
+                <li>Base apparel coming soon master</li>
+                <li>Faq accordion card main</li>
+            </ul>
             
         </>
     )

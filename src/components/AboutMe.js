@@ -3,7 +3,7 @@ import "./AboutMe.css"
 
 export default function AboutMe() {
     return (
-        <>
+        <div class="grid">
             <div >
                 <h1>About Me</h1>
                 <p>My name is Nedyalka Ivancheva, but you can call me Neli. 
@@ -14,7 +14,7 @@ export default function AboutMe() {
                     path. I chose the IT sector because nowadays
                     it is one of the most prosperous and necessery fields.
                     Our future is build on this. Even in my work as an insurance
-                    expert, when we wre dissatisfied whith the problems that
+                    expert, when we were dissatisfied whith the problems that
                     the system caused. I realized that if it was perfect, there
                     would be no need for experts like me and every user would
                     be able to make and get insurance that he needs without mediation.
@@ -23,6 +23,6 @@ export default function AboutMe() {
                 </p>
             </div>
             <img src='IMG_8431.jpg' alt="myprofile picture" className="profile-img"/>
-        </>
+        </div>
     )
 }

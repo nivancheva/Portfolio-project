@@ -1,15 +1,25 @@
 import React from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub, faGoogle, faLinkedin } from "@fortawesome/free-brands-svg-icons"
+import { NavLink } from "react-router-dom";
+import "./Contact.css"
 
 export default function Contact() {
     return (
         <>
             <h1>Contact</h1>
-            <div>
-                <FontAwesomeIcon icon={faGoogle} />
-                <FontAwesomeIcon icon={faGithub} />
-                <FontAwesomeIcon icon={faLinkedin} />
+            <p>Email: example@gmail.com</p>
+            <p>Phone: 0879354792</p>
+            <div className="icons">
+
+                <NavLink target="blank" to="https://github.com/nivancheva/">
+                <   FontAwesomeIcon icon={faGithub} />
+                </NavLink>
+
+                <NavLink target="blank" to="https://www.linkedin.com/in/nedyalka-ivancheva-39329a102">
+                    <FontAwesomeIcon icon={faLinkedin} />
+                </NavLink>
+              
             </div>
         </>
     )
