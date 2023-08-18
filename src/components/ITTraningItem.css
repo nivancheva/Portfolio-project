@@ -7,3 +7,8 @@ img {
     max-width: 500px;
     margin-top: 2rem;
 }
+
+p {
+    text-align: left;
+    color: black;
+}

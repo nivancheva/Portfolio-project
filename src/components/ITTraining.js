@@ -23,17 +23,17 @@ export default function ITTraning() {
                 <ITTraningItem
                     title="One Results summary component"
                     image={image1}
-                    description="A sample project"
+                    description="Build out this results summary component"
                 />
                 <ITTraningItem
                     title="Base apparel coming soon master"
                     image={image2}
-                    description="A sample project"
+                    description="Build out coming soon page"
                 />
                 <ITTraningItem
                     title="Faq accordion card main"
                     image={image3}
-                    description="A sample project"
+                    description="Build out FAQ accordion card"
                 />
             </ul>
             
