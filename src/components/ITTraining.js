@@ -1,4 +1,5 @@
 import React from "react";
+import "./ITTraning.css"
 
 export default function ITTraning() {
     return (

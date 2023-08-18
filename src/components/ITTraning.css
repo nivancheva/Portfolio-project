@@ -1,0 +1,14 @@
+ul {
+    margin-top: 3em;
+}
+
+li {
+    text-align: left;
+    list-style-type: none;
+    font-size: 1.1875rem;
+    text-decoration: underline;
+}
+
+li::before{
+    content: "\25BA \0020";
+}
