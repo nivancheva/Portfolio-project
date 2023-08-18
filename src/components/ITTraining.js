@@ -1,5 +1,9 @@
 import React from "react";
 import "./ITTraning.css"
+import ITTraningItem from "./ITTrainingItem";
+import image1 from "../images/one-results-summary.png";
+import image2 from "../images/base-apparel.png";
+import image3 from "../images/faq-accordion-card.png";
 
 export default function ITTraning() {
     return (
@@ -16,9 +20,21 @@ export default function ITTraning() {
                 in my github page.
             </p>
             <ul>
-                <li>One Results summary component</li>
-                <li>Base apparel coming soon master</li>
-                <li>Faq accordion card main</li>
+                <ITTraningItem
+                    title="One Results summary component"
+                    image={image1}
+                    description="A sample project"
+                />
+                <ITTraningItem
+                    title="Base apparel coming soon master"
+                    image={image2}
+                    description="A sample project"
+                />
+                <ITTraningItem
+                    title="Faq accordion card main"
+                    image={image3}
+                    description="A sample project"
+                />
             </ul>
             
         </>
