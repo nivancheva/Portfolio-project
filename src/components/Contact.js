@@ -13,11 +13,11 @@ export default function Contact() {
             <div className="icons">
 
                 <NavLink target="blank" to="https://github.com/nivancheva/">
-                <   FontAwesomeIcon icon={faGithub} />
+                <   FontAwesomeIcon icon={faGithub} size="2x" />
                 </NavLink>
 
                 <NavLink target="blank" to="https://www.linkedin.com/in/nedyalka-ivancheva-39329a102">
-                    <FontAwesomeIcon icon={faLinkedin} />
+                    <FontAwesomeIcon icon={faLinkedin} size="2x"/>
                 </NavLink>
               
             </div>

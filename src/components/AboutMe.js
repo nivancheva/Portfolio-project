@@ -3,7 +3,7 @@ import "./AboutMe.css"
 
 export default function AboutMe() {
     return (
-        <div class="grid">
+        <div className="grid">
             <div >
                 <h1>About Me</h1>
                 <p>My name is Nedyalka Ivancheva, but you can call me Neli. 
