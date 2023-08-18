@@ -10,14 +10,14 @@ export default function ITTraning() {
         <>
             <h1>IT Traning</h1>
             <p>
-                I've started my journey in January this year by
+                I've started my journey in January this year (2023) by
                 learning HTML and CSS from the documentation at W3School
-                and MDN web docs. When i gain some knowledge i
-                started doing chalanges from Frontend Mentor.
-                When i started learning Javascript I enrolled in
-                codecademy courses. You will be able to see more about
-                the projects and certificates acquired during my traning in 
-                in my github page.
+                and MDN web docs. When I gained some knowledge I
+                started doing challenges from Frontend Mentor.
+                When I started learning Javascript I enrolled in
+                Codecademy. You will be able to see more about
+                the projects and certificates acquired during my training in 
+                in my github and linkedIn pages.
             </p>
             <ul>
                 <ITTraningItem
