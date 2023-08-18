@@ -14,7 +14,7 @@ const router =
         <Route path="it-traning" element={ <ITTraning /> } />
         <Route path="contact" element={ <Contact /> } />
      </Route>
-  ))
+  ), { basename: "/portfolio-project" })
 
 function App() {
   return (
