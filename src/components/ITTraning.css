@@ -7,6 +7,7 @@ li {
     list-style-type: none;
     font-size: 1.1875rem;
     text-decoration: underline;
+    color: rgb(99, 98, 98);
 }
 
 li::before{
